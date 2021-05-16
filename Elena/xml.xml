@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca[
+    <!ELEMENT biblioteca (libros, revistas, periodicos)>
+
+    
+    <!ELEMENT libros (libro+)>
+    <!ATTLIST libros id CDATA #REQUIRED>
+
+    <!ELEMENT revistas (revista+)>
+    <!ATTLIST revistas id CDATA #REQUIRED>
+
+    <!ELEMENT periodicos (periodico+)>
+    <!ATTLIST periodicos id CDATA #REQUIRED>
+
+    <!ELEMENT libro (titulo, indice, sinopsis, capitulo+)>
+    <!ATTLIST libro 
+            tipo_clase CDATA #REQUIRED
+            numeroPaginas CDATA #REQUIRED>
+
+    <!ELEMENT titulo (#PCDATA)>
+
+    <!ELEMENT indice (#PCDATA)>
+
+    <!ELEMENT sinopsis (#PCDATA)>
+
+    <!ELEMENT capitulo (titulo, contenido)>
+    <!ATTLIST capitulo
+        id CDATA
+        numeroPaginas CDATA #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+
+    <!ELEMENT contenido (#ANY)>
+    <!ATTLIST contenido 
+        enlace CDATA #REQUIRED>
+
+
+    <!ELEMENT revista (titulo, numeroRevista, indice, secciones)>
+    <!ATTLIST revista
+        tipo_clase CDATA #REQUIRED
+        numeroPaginas CDATA #REQUIRED>
+
+    <!ELEMENT titulo (#PCDATA)>
+
+    <!ELEMENT numeroRevista (#PCDATA)>
+
+    <!ELEMENT indice (#PCDATA)>
+
+    <!ELEMENT secciones (seccion+)>
+
+    <!ELEMENT seccion (contenido)>
+    <!ATTLIST seccion
+        id CDATA
+        numeroPagina CDATA #REQUIRED>
+
+    <!ELEMENT contenido (#ANY)>
+    <!ATTLIST contenido 
+        enlace CDATA #REQUIRED>
+
+
+    <!ELEMENT periodico (indice, secciones)>
+    <!ATTLIST periodico
+        tipo_clase CDATA #REQUIRED
+        fechaPublicacion CDATA #REQUIRED)>
+
+    <!ELEMENT indice (#PCDATA)>
+
+    <!ELEMENT secciones (seccion+)>
+    <!ATTLIST secciones
+        id CDATA #REQUIRED)>
+    
+    <!ELEMENT seccion (articulo,contenido)>
+    <!ATTLIST seccion   
+        tipo_seccion CDATA #REQUIRED)>
+    
+    <!ELEMENT articulo (#ANY)>
+    <!ATTLIST articulo 
+        autor CDATA #REQUIRED>
+
+    <!ELEMENT contenido (#ANY)>
+    <!ATTLIST contenido 
+        enlace CDATA #REQUIRED>
  
+
+]>
 <biblioteca>
     <libros id="libros">
         <libro tipo_clase="Lnove" numeroPaginas="372">
