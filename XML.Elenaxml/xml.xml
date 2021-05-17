@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libros id="libros">
+        <libro tipo_clase="Lnove" numeroPaginas="372">
+            <titulo> Pan de bruja </titulo>
+            <indice> 60 capitulos </indice>
+            <sinopsis> Lorem fistrum fistro te voy a borrar el cerito pecador </sinopsis>
+            <capitulo id="capitulo1" numeroPaginas="6">
+                <titulos> Regreso a Paris </titulos>
+                <contenido enlace="https://www.penguinlibros.com/es/libros-de-fantasia/23009-pan-de-bruja"> web oficial </contenido>
+            </capitulo>
+            <capitulo id="capitulo1" numeroPaginas="7">
+                <titulos> La brujita tapita </titulos>
+                <contenido enlace="https://www.penguinlibros.com/es/libros-de-fantasia/23009-pan-de-bruja"> web oficial </contenido>
+            </capitulo>
+        </libro>
+        <libro tipo_clase="Linfa" numeroPaginas="10">
+            <titulo> El pollito Pepe </titulo>
+            <indice> 2 capitulos </indice>
+            <sinopsis> Lorem fistrum fistro te voy a borrar el cerito pecador </sinopsis>
+            <capitulo id="capitulo1" numeroPaginas="4">
+                <titulos> Pepe y la rana </titulos>
+                <contenido enlace="https://www.casadellibro.com/libros-pollo-pepea"> web oficial </contenido>
+            </capitulo>
+            <capitulo id="capitulo2" numeroPaginas="6">
+                <titulos> Pepe se va al rio </titulos>
+                <contenido enlace="https://www.casadellibro.com/libros-pollo-pepe"> web oficial </contenido>
+            </capitulo>
+        </libro>
+        <libro tipo_clase="Ldida" numeroPaginas="14">
+            <titulo> Mira, toca, siente </titulo>
+            <indice> 4 capitulos </indice>
+            <sinopsis> Lorem fistrum fistro te voy a borrar el cerito pecador </sinopsis>
+            <capitulo id="capitulo1" numeroPaginas="4">
+                <titulos> La arena </titulos>
+                <contenido enlace="https://www.brunolibros.es/libro/proyecto-de-0-a-3-anos/mira-toca-siente-crea/"> web ofical </contenido>
+            </capitulo>
+            <capitulo id="capitulo2" numeroPaginas="3">
+                <titulos> Seda y maiz </titulos>
+                <contenido enlace="https://www.brunolibros.es/libro/proyecto-de-0-a-3-anos/mira-toca-siente-crea/"> web ofial </contenido>
+            </capitulo>
+        </libro>
+    </libros>
+    <revistas id="revistas">
+        <revista tipo_clase="Rinformatica" numeroPaginas="20">
+            <tituloRe> GitHub </tituloRe>
+            <numeroRevista> 67 </numeroRevista>
+            <indices> 6 secciones </indices>
+            <secciones>
+                <seccion id="git" numeroPagina="12">
+                    <contenidoRe enlace="https://www.hostinger.es/tutoriales/que-es-github"> web oficial </contenidoRe>
+                </seccion>
+                <seccion id="bash" numeroPagina="8">
+                   <contenidoRe enlace="https://www.hostinger.es/tutoriales/que-es-github"> web ofiacial </contenidoRe>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista tipo_clase="Rcorazon" numeroPaginas="20">
+            <tituloRe> Diez minutos </tituloRe>
+            <numeroRevista> 512 </numeroRevista>
+            <indices> 24 secciones </indices>
+            <secciones>
+                <seccion id="famosos españoles" numeroPagina="18">
+                    <contenidoRe enlace="https://www.diezminutos.es/"> web ofial </contenidoRe>
+                </seccion>
+                <seccion id="famosos extranjeros" numeroPagina="2">
+                   <contenidoRe enlace="https://www.diezminutos.es/"> web oficial </contenidoRe>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista tipo_clase="Rcoche" numeroPaginas="27">
+            <tituloRe> Auto facil </tituloRe>
+            <numeroRevista> 26 </numeroRevista>
+            <indices> 13 secciones </indices>
+            <secciones>
+                <seccion id="coches españoles" numeroPagina="24">
+                    <contenidoRe enlace="https://www.autofacil.es/"> web oficial </contenidoRe>
+                </seccion>
+                <seccion id="coches extranjeros" numeroPagina="3">
+                   <contenidoRe enlace="https://www.autofacil.es/"> web oficial </contenidoRe>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista tipo_clase="Rinvestigacion" numeroPaginas="66">
+            <tituloRe> Investigacion en educacion </tituloRe>
+            <numeroRevista> 891 </numeroRevista>
+            <indices> 12 secciones </indices>
+            <secciones>
+                <seccion id="desarrollo madurativo" numeroPagina="24">
+                    <contenidoRe enlace="http://reined.webs.uvigo.es/"> web oficial </contenidoRe>
+                </seccion>
+                <seccion id="atencion primaria" numeroPagina="3">
+                   <contenidoRe enlace="http://reined.webs.uvigo.es/"> web oficial </contenidoRe>
+                </seccion>
+            </secciones>
+        </revista>
+           <revista tipo_clase="Rviaje" numeroPaginas="25">
+            <tituloRe> El periodico </tituloRe>
+            <numeroRevista> 452 </numeroRevista>
+            <indices> 8 secciones </indices>
+            <secciones>
+                <seccion id="Vietman" numeroPagina="8">
+                    <contenidoRe enlace="https://viajar.elperiodico.com/"> web oficial </contenidoRe>
+                </seccion>
+                <seccion id="Thailandia" numeroPagina="10">
+                   <contenidoRe enlace="https://viajar.elperiodico.com/"> web oficial </contenidoRe>
+                </seccion>
+            </secciones>
+        </revista>
+    </revistas>
+    <periodicos id="periodicos">
+        <periodico tipo_clase="nacionales" fechaPublicacion="30 mayo 2000">
+            <indicePe> 48 secciones </indicePe>
+            <seccionesPe id="secciones">
+                <seccionPe tipo_seccion="economia">
+                    <articulo autor="Iván Lastre"/>
+                    <contenidoPe enlace="https://elpais.com/economia/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="opinion">
+                    <articulo autor="Silva Mata"/>
+                    <contenidoPe enlace="https://www.elperiodico.com/es/opinion/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="deporte">
+                    <articulo autor="Mateo te veo"/>
+                    <contenidoPe enlace="https://www.marca.com/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="nacionales">
+                    <articulo autor="Pedro Silva"/>
+                    <contenidoPe enlace="https://www.elnacional.cat/es"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="internacional">
+                    <articulo autor="Tadeo Juan"/>
+                    <contenidoPe enlace="https://www.nytimes.com/es/"> web oficial </contenidoPe>
+                </seccionPe>
+            </seccionesPe>
+        </periodico>
+        <periodico tipo_clase="internacionales" fechaPublicacion="15 mayo 2020">
+            <indicePe> 148 secciones </indicePe>
+            <seccionesPe id="secciones">
+                <seccionPe tipo_seccion="economia">
+                    <articulo autor="Carrie Bradshaw"/>
+                    <contenidoPe enlace="https://www.elmundofinanciero.com/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="opinion">
+                    <articulo autor="Mara Brown"/>
+                    <contenidoPe enlace="https://www.nytimes.com/es/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="deporte">
+                    <articulo autor="Mathew Pink"/>
+                    <contenidoPe enlace="https://www.nytimes.com/es/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="nacionales">
+                    <articulo autor="Peter Marshall"/>
+                    <contenidoPe enlace="https://www.nytimes.com/es/"> web oficial </contenidoPe>
+                </seccionPe>
+                <seccionPe tipo_seccion="internacional">
+                    <articulo autor="Will Mondey"/>
+                    <contenidoPe enlace="https://www.nytimes.com/es/"> web oficial </contenidoPe>
+                </seccionPe>
+            </seccionesPe>
+        </periodico>
+    </periodicos>
+</biblioteca>
