@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<biblioteca>
+
+    <libros id="libros">
+
+            <libro tipo_clase="LNOVE" numeroPaginas="1354">
+                <titulo>Don Quijote de la Mancha</titulo>
+                <indice>74 capítulos</indice>
+                <capitulo numeroPaginas="56">
+                    <titulo>En un lugar de la mancha</titulo>
+                    <sinopsis>En este capitulo se nos presenta a Alonso Quijana como un hombre no excesivamente rico, incluso se podría decir que era mas bien pobre.
+                    </sinopsis>
+                    <contenido>https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha</contenido>
+                </capitulo>
+                <capitulo numeroPaginas="48">
+                    <titulo>Que trata de la primera salida que de su tierra</titulo>
+                    <sinopsis></sinopsis>
+                    <contenido>https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha</contenido>
+                </capitulo>
+                <sinopsis>Don Quijote de la Manchaa​ es una novela escrita por el español Miguel de Cervantes Saavedra</sinopsis>
+            </libro>
+      
+            <libro tipo_clase="LINFA" numeroPaginas="254">
+                <titulo>Harry Potter y la piedra filosofal</titulo>
+                <indice>16 capítulos</indice>
+                <capitulo numeroPaginas="36">
+                    <titulo>El niño que sobrevivió</titulo>
+                    <sinopsis> Conocemos a Harry Potter y su historia familiar</sinopsis>
+                    <contenido>https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_la_piedra_filosofal</contenido>
+                </capitulo>
+                <capitulo numeroPaginas="29">
+                    <titulo>El vidrio que se desvaneció</titulo>
+                    <sinopsis>Harry Potter se va a Hogwarts</sinopsis>
+                    <contenido>https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_la_piedra_filosofal</contenido>
+                </capitulo>
+                <sinopsis>Niño mago entra en una escuela de mágia</sinopsis>
+            </libro>
+        
+            <libro tipo_clase="LDIDA" numeroPaginas="264">
+                <titulo>La Escuela Moderna</titulo>
+                <indice>28 capítulos</indice>
+                <capitulo numeroPaginas="30">
+                    <titulo>Educacion a niños</titulo>
+                    <sinopsis>Capitulo en el que se trata la educación a niños entre 0 y 12 años</sinopsis>
+                    <contenido>https://www.casadellibro.com/libro-la-escuela-moderna-2-ed/9788483108383/864855</contenido>
+                </capitulo>
+                <capitulo numeroPaginas="20">
+                    <titulo>Educación a jovenes</titulo>
+                    <sinopsis>Capitulo en el que se trata la educación a niños entre 12 y 18 años</sinopsis>
+                    <contenido>https://www.casadellibro.com/libro-la-escuela-moderna-2-ed/9788483108383/864855</contenido>
+                </capitulo>
+                <sinopsis>Educación a las personas hasta la fase adulta</sinopsis>
+            </libro>
+        
+    </libros>
+
+    <revistas id="revistas">
+
+        <revista tipo_clase="RINFO" numeroPaginas="50">
+            <titulo>ComputerHoy</titulo>
+            <numeroRevista>105</numeroRevista>
+            <indice>12 secciones</indice>
+            <secciones>
+                <seccion id="Software" numeroPaginas="7">
+                    <contenido>https://computerhoy.com/</contenido>
+                </seccion>
+                <seccion id="Hardware" numeroPaginas="9">
+                    <contenido>https://computerhoy.com/</contenido>
+                </seccion>
+                <seccion id="Compra/Venta" numeroPaginas="5">
+                    <contenido>https://computerhoy.com/</contenido>
+                </seccion>
+            </secciones>
+        </revista>
+
+        <revista tipo_clase="RCORA" numeroPaginas="30">
+            <titulo>SálvameHoy</titulo>
+            <numeroRevista>1128</numeroRevista>
+            <indice>5 secciones</indice>
+            <secciones>
+                <seccion id="Infidelidades" numeroPaginas="7">
+                    <contenido>https://www.elmundotoday.com/2018/01/un-estudio-confirma-que-los-espanoles-usarian-los-dispositivos-futuristas-de-black-mirror-para-ver-salvame/</contenido>
+                </seccion>
+                <seccion id="Dinero" numeroPaginas="8">
+                    <contenido>https://www.elmundotoday.com/2018/01/un-estudio-confirma-que-los-espanoles-usarian-los-dispositivos-futuristas-de-black-mirror-para-ver-salvame/</contenido>
+                </seccion>
+                <seccion id="Lujo" numeroPaginas="5">
+                    <contenido>https://www.elmundotoday.com/2018/01/un-estudio-confirma-que-los-espanoles-usarian-los-dispositivos-futuristas-de-black-mirror-para-ver-salvame/</contenido>
+                </seccion>
+            </secciones>
+        </revista>
+
+        <revista tipo_clase="RCOCH" numeroPaginas="45">
+            <titulo>Car</titulo>
+            <numeroRevista>56</numeroRevista>
+            <indice>9 secciones</indice>
+            <secciones>
+                <seccion id="Noticias" numeroPaginas="10">
+                    <contenido>https://revistacar.es/</contenido>
+                </seccion>
+                <seccion id="NuevoPirinfarina" numeroPaginas="5">
+                    <contenido>https://revistacar.es/</contenido>
+                </seccion>
+                <seccion id="Compra/Venta" numeroPaginas="12">
+                    <contenido>https://revistacar.es/</contenido>
+                </seccion>
+            </secciones>
+        </revista>
+
+        <revista tipo_clase="RINVE" numeroPaginas="102">
+            <titulo>MuyInteresante</titulo>
+            <numeroRevista>703</numeroRevista>
+            <indice>10 secciones</indice>
+            <secciones>
+                <seccion id="Noticias" numeroPaginas="9">
+                    <contenido>https://www.muyinteresante.es/</contenido>
+                </seccion>
+                <seccion id="Futuro" numeroPaginas="3">
+                    <contenido>https://www.muyinteresante.es/</contenido>
+                </seccion>
+                <seccion id="Ciencia" numeroPaginas="11">
+                    <contenido>https://www.muyinteresante.es/</contenido>
+                </seccion>
+            </secciones>
+        </revista>
+
+        <revista tipo_clase="RZAPA" numeroPaginas="49">
+            <titulo>SneakersMagazine</titulo>
+            <numeroRevista>114</numeroRevista>
+            <indice>8 secciones</indice>
+            <secciones>
+                <seccion id="Novedades" numeroPaginas="9">
+                    <contenido>https://www.sneakersmagazine.es/</contenido>
+                </seccion>
+                <seccion id="NuevaAdidog" numeroPaginas="5">
+                    <contenido>https://www.sneakersmagazine.es/</contenido>
+                </seccion>
+                <seccion id="Airmax" numeroPaginas="10">
+                    <contenido>https://www.sneakersmagazine.es/</contenido>
+                </seccion>
+            </secciones>
+        </revista>
+
+    </revistas>
+
+    <periodicos id="periodicos"> 
+
+        <periodico tipo_clase="nacionales" fechaPublicacion="21/04/2021">
+            <indice>20 secciones</indice>
+            <secciones id="secciones">
+                <seccion tipo_seccion="Economía">
+                    <articulo autor="Manolo">La economía española y el efecto botella de champán</articulo>   
+                    <contenido>https://www.lavanguardia.com/economia/20210514/7438617/espana-economia-pib-consumo-crecimiento-crisis.html</contenido>
+                </seccion>
+                <seccion tipo_seccion="Opinión">
+                    <articulo autor="Conchi">Romper la cuarta pared y otras reformas aconsejables si vives en el piso de una ‘sitcom’</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/05/romper-la-cuarta-pared-y-otras-reformas-aconsejables-si-vives-en-el-piso-de-una-sitcom/</contenido>
+                </seccion>
+                <seccion tipo_seccion="Deporte">
+                    <articulo autor="Maldini">El Getafe y el Alcorcón proponen la creación de una Infraliga patrocinada por Caja Rural</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/04/el-getafe-y-el-alcorcon-proponen-la-creacion-de-una-infraliga-patrocinada-por-caja-rural/</contenido>
+                </seccion>
+                <seccion tipo_seccion="Nacional">
+                    <articulo autor="CristianoRonaldo">La DGT instala en todos los pasillos de España peajes pequeñitos para los aspiradores robóticos</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/05/la-dgt-instala-en-todos-los-pasillos-de-espana-peajes-pequenitos-para-los-aspiradores-roboticos/</contenido>
+                </seccion>
+                <seccion tipo_seccion="internacional">
+                    <articulo autor="Billy">La campaña de vacunación permite a los estadounidenses recuperar sus tiroteos masivos con seguridad</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/04/la-campana-de-vacunacion-permite-a-los-estadounidenses-recuperar-sus-tiroteos-masivos-con-seguridad/</contenido>
+                </seccion>
+                
+            </secciones>
+        </periodico>
+
+        <periodico tipo_clase="Internacionales" fechaPublicacion="21/04/2021">
+            <indice>30 secciones</indice>
+            <secciones id="secciones">
+                <seccion tipo_seccion="Economía">
+                    <articulo autor="Williams"></articulo>   
+                    <contenido></contenido>
+                </seccion>
+                <seccion tipo_seccion="Opinión">
+                    <articulo autor="Homer">Los fans de Bowie siguen esperando que el artista abandone ya esa etapa suya consistente en estar muerto</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/04/los-fans-de-bowie-siguen-esperando-que-el-artista-abandone-ya-esa-etapa-suya-consistente-en-estar-muerto/</contenido>
+                </seccion>
+                <seccion tipo_seccion="Deporte">
+                    <articulo autor="Morgan">Barça y Madrid preguntan ahora a los demás, si quieren ingresar en la Superliga</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/04/barca-y-madrid-preguntan-ahora-al-alaves-al-athletic-al-atletico-de-madrid-al-real-betis-al-cadiz-al-celta-al-eibar-al-elche-al-getafe-al-granada-al-huesca-al-levante-al-osasuna-a-la-real/</contenido>
+                </seccion>
+                <seccion tipo_seccion="Nacional">
+                    <articulo autor="Lindsey">Detenido un hombre que no vio las series que había que ver sí o sí en 2020</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/05/detenido-un-hombre-que-no-vio-las-series-que-habia-que-ver-si-o-si-en-2020/</contenido>
+                </seccion>
+                <seccion tipo_seccion="internacional">
+                    <articulo autor="Bernadette">Los asiáticos reconocen que comen con palillos porque tienen todos los cubiertos para lavar</articulo>   
+                    <contenido>https://www.elmundotoday.com/2021/05/los-asiaticos-reconocen-que-comen-con-palillos-porque-tienen-todos-los-cubiertos-para-lavar/</contenido>
+                </seccion>
+                
+            </secciones>
+        </periodico>
+
+    </periodicos>
+</biblioteca>
