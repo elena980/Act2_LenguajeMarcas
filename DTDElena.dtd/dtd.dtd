@@ -1,0 +1,59 @@
+<!ELEMENT biblioteca (libros, revistas, periodicos)>
+
+    
+    <!ELEMENT libros (libro+)>
+    <!ATTLIST libros id CDATA #REQUIRED>
+    <!ELEMENT libro (titulo, indice, sinopsis, capitulo+)>
+    <!ATTLIST libro 
+            tipo_clase CDATA #REQUIRED
+            numeroPaginas CDATA #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT indice (#PCDATA)>
+    <!ELEMENT sinopsis (#PCDATA)>
+    <!ELEMENT capitulo (titulos, contenido)>
+    <!ATTLIST capitulo
+        id CDATA #REQUIRED
+        numeroPaginas CDATA #REQUIRED>
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+    <!ATTLIST contenido 
+        enlace CDATA #REQUIRED>
+
+    <!ELEMENT revistas (revista+)>
+    <!ATTLIST revistas id CDATA #REQUIRED>
+
+    <!ELEMENT revista (tituloRe, numeroRevista, indices, secciones)>
+    <!ATTLIST revista
+        tipo_clase CDATA #REQUIRED
+        numeroPaginas CDATA #REQUIRED>
+    <!ELEMENT tituloRe (#PCDATA)>
+    <!ELEMENT numeroRevista (#PCDATA)>
+    <!ELEMENT indices (#PCDATA)>
+    <!ELEMENT secciones (seccion+)>
+    <!ELEMENT seccion (contenidoRe)>
+    <!ATTLIST seccion
+        id CDATA #REQUIRED
+        numeroPagina CDATA #REQUIRED>
+    <!ELEMENT contenidoRe (#PCDATA)>
+    <!ATTLIST contenidoRe 
+        enlace CDATA #REQUIRED>
+
+    <!ELEMENT periodicos (periodico+)>
+    <!ATTLIST periodicos id CDATA #REQUIRED>
+    <!ELEMENT periodico (indicePe, seccionesPe)>
+    <!ATTLIST periodico
+        tipo_clase CDATA #REQUIRED
+        fechaPublicacion CDATA #REQUIRED>
+    <!ELEMENT indicePe (#PCDATA)>
+    <!ELEMENT seccionesPe (seccionPe+)>
+    <!ATTLIST seccionesPe
+        id CDATA #REQUIRED>
+    <!ELEMENT seccionPe (articulo,contenidoPe)>
+    <!ATTLIST seccionPe   
+        tipo_seccion CDATA #REQUIRED>
+    <!ELEMENT articulo (#PCDATA)>
+    <!ATTLIST articulo 
+        autor CDATA #REQUIRED>
+    <!ELEMENT contenidoPe (#PCDATA)>
+    <!ATTLIST contenidoPe 
+        enlace CDATA #REQUIRED>
